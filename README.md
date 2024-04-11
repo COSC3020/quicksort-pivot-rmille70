@@ -23,7 +23,7 @@ might help with the notation for mathematical expressions.
 
 ## Answer & Reasoning
 
-Left Most Approach Good Pivot Probability: $\frac{1}{2}$
+Left Most Approach Good Pivot Probability: $\frac{1}{2}$ or 50%
 
 For the median-of-three approach, there are 4 scenarios where we observe three elements and get a good pivot value:
 1) Good Pivot, Good Pivot, Good Pivot (1 possible ordering)
