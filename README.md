@@ -25,19 +25,15 @@ might help with the notation for mathematical expressions.
 
 Left Most Approach Good Pivot Probability: $\frac{1}{2}$
 
-Median of Three Approach Good Pivot Probability:
-There are 4 scenarios where we observe three elements and get a good pivot value:
+For the median-of-three approach, there are 4 scenarios where we observe three elements and get a good pivot value:
 1) Good Pivot, Good Pivot, Good Pivot (1 possible ordering)
 2) Too small, Good Pivot, Good Pivot (3 possible orderings)
 3) Too big, Good Pivot, Good Pivot (3 possible orderings)
 4) Too small, Too big, Good Pivot (6 possible orderings)
 
-And from the slides, we also know:
-The probability of a random element being a good pivot is 1/2,
-The probability of a random element being too small is 1/4,
-The probability of a random element being too big is 1/4,
+And from the slides, we also know the probability of a random element being a good pivot is 1/2, the probability of a random element being too small is 1/4, and the probability of a random element being too big is 1/4.
 
-So the probabilty of getting a good pivot value is:
+So the probabilty of picking a good pivot value is:
 $1(\frac{1}{2})(\frac{1}{2})(\frac{1}{2}) + 6(\frac{1}{4})(\frac{1}{2})(\frac{1}{4}) + 3(\frac{1}{2})(\frac{1}{4})(\frac{1}{2}) + 3(\frac{1}{2})(\frac{1}{4})(\frac{1}{2}) = 0.6875$  
 
-That means our chances of getting a good pivot are 68.75%. Clearly we can tell that the median-of-three approach is more likely to get a good pivot value, as it has a 68.75% chance of a good pivot value whereas the left-most approach only has a 50% chance of a good pivot value.
+That means our chances of picking a good pivot are 68.75%. Clearly we can tell that the median-of-three approach is more likely to pick a good pivot value, as it has a 68.75% chance of picking a good pivot value whereas the left-most approach only has a 50% chance of picking a good pivot value.
