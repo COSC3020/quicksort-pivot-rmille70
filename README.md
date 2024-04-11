@@ -20,3 +20,24 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+## Answer & Reasoning
+
+Left Most Approach Good Pivot Probability: $\frac{1}{2}$
+(\frac{1}{2})
+(\frac{}{})
+Median of Three Approach Good Pivot Probability:
+
+There are 4 scenarios where we observe three elements and get a good pivot value:
+1) Good Pivot, Good Pivot, Good Pivot (1 possible ordering)
+2) Too small, Good Pivot, Good Pivot (6 possible orderings)
+3) Too big, Good Pivot, Good Pivot (6 possible orderings)
+4) Too small, Too big, Good Pivot (6 possible orderings)
+
+And from the slides, we also know:
+The probability of a random element being a good pivot is 1/2,
+The probability of a random element being too small is 1/4,
+The probability of a random element being too big is 1/4,
+
+So the probabilty of getting a good pivot value is:
+$ 1((\frac{1}{2})(\frac{1}{2})(\frac{1}{2})) + 6((\frac{1}{4})(\frac{1}{2})(\frac{1}{4})) + 6((\frac{1}{2})(\frac{1}{4})(\frac{1}{2})) + 6((\frac{1}{2})(\frac{1}{4})(\frac{1}{2}))
