@@ -40,4 +40,4 @@ The probability of a random element being too small is 1/4,
 The probability of a random element being too big is 1/4,
 
 So the probabilty of getting a good pivot value is:
-$1((\frac{1}{2})(\frac{1}{2})(\frac{1}{2})) + 6((\frac{1}{4})(\frac{1}{2})(\frac{1}{4})) + 6((\frac{1}{2})(\frac{1}{4})(\frac{1}{2})) + 6((\frac{1}{2})(\frac{1}{4})(\frac{1}{2}))$ 
+$1(\frac{1}{2})(\frac{1}{2})(\frac{1}{2}) + 6(\frac{1}{4})(\frac{1}{2})(\frac{1}{4}) + 6(\frac{1}{2})(\frac{1}{4})(\frac{1}{2}) + 6(\frac{1}{2})(\frac{1}{4})(\frac{1}{2})$ 
